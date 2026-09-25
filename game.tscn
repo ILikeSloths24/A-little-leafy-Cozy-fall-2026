@@ -1,15 +1,15 @@
-[gd_scene format=3 uid="uid://4chj31w85w8t"]
+[gd_scene format=3 uid="uid://t7ex22hffso"]
 
-[ext_resource type="Script" uid="uid://dpmd4tsjpsojc" path="res://leaf_game.gd" id="1_b7uc4"]
-[ext_resource type="Texture2D" uid="uid://b4cvi57ge20lv" path="res://ART/Tree 2.png" id="2_rn0ah"]
-[ext_resource type="Script" uid="uid://b4o8qxmcov6wv" path="res://player.gd" id="3_rn0ah"]
-[ext_resource type="Texture2D" uid="uid://cbdvvi6aleheg" path="res://ART/Tree 1.png" id="3_t2e6j"]
-[ext_resource type="Texture2D" uid="uid://dmosd5jbhma0w" path="res://ART/Screenshot 2026-09-25 165253.png" id="4_3vl1d"]
-[ext_resource type="Texture2D" uid="uid://b853un0brau3k" path="res://ART/character sprite (1).png" id="4_t2e6j"]
-[ext_resource type="PackedScene" uid="uid://cfq33moimb2yq" path="res://leaf.tscn" id="5_3vl1d"]
+[ext_resource type="Script" uid="uid://dpmd4tsjpsojc" path="res://leaf_game.gd" id="1_lckmi"]
+[ext_resource type="Texture2D" uid="uid://b4cvi57ge20lv" path="res://ART/Tree 2.png" id="2_n0ify"]
+[ext_resource type="Texture2D" uid="uid://cbdvvi6aleheg" path="res://ART/Tree 1.png" id="3_rv1y4"]
+[ext_resource type="Texture2D" uid="uid://dmosd5jbhma0w" path="res://ART/Screenshot 2026-09-25 165253.png" id="4_vvxxc"]
+[ext_resource type="Script" uid="uid://b4o8qxmcov6wv" path="res://player.gd" id="5_gjhvg"]
+[ext_resource type="Texture2D" uid="uid://b853un0brau3k" path="res://ART/character sprite (1).png" id="6_vc6la"]
+[ext_resource type="PackedScene" uid="uid://cfq33moimb2yq" path="res://leaf.tscn" id="7_f5lyi"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tb2wm"]
-texture = ExtResource("2_rn0ah")
+texture = ExtResource("2_n0ify")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0
@@ -17,7 +17,7 @@ texture_region_size = Vector2i(32, 32)
 1:1/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rovun"]
-texture = ExtResource("3_t2e6j")
+texture = ExtResource("3_rv1y4")
 texture_region_size = Vector2i(32, 36)
 1:0/0 = 0
 2:0/0 = 0
@@ -36,7 +36,7 @@ texture_region_size = Vector2i(32, 36)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7y1pp"]
-texture = ExtResource("4_3vl1d")
+texture = ExtResource("4_vvxxc")
 texture_region_size = Vector2i(20, 32)
 0:0/0 = 0
 0:1/0 = 0
@@ -47,67 +47,67 @@ sources/2 = SubResource("TileSetAtlasSource_rovun")
 sources/3 = SubResource("TileSetAtlasSource_7y1pp")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hds8d"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lsixc"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_d4w0s"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(0, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0vqi6"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(0, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xiuj8"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_godor"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3oct0"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_v0iny"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(32, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mnkav"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(64, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_glsh1"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(96, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_old3r"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(32, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qtygl"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(64, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3gwkg"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(96, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gpww1"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(32, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bd1cl"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(64, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_d5yuy"]
-atlas = ExtResource("4_t2e6j")
+atlas = ExtResource("6_vc6la")
 region = Rect2(96, 96, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_mnkav"]
@@ -216,11 +216,8 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0vqi6"]
 size = Vector2(16.25, 28.400003)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_wfm3n"]
-size = Vector2(71, 92)
-
 [node name="Node2D" type="Node2D" unique_id=1801953267]
-script = ExtResource("1_b7uc4")
+script = ExtResource("1_lckmi")
 
 [node name="TREE1" type="TileMap" parent="." unique_id=593882917]
 scale = Vector2(10, 10)
@@ -229,7 +226,7 @@ format = 2
 layer_0/tile_data = PackedInt32Array(-196605, 1, 0, -196607, 2, 0, -131073, 3, 0)
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=679504377]
-script = ExtResource("3_rn0ah")
+script = ExtResource("5_gjhvg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=1718876360]
 position = Vector2(82, -16)
@@ -265,45 +262,41 @@ offset_bottom = 45.0
 theme_override_font_sizes/font_size = 31
 text = "LEAVES  0/100"
 
-[node name="Leaf" parent="." unique_id=541012346 instance=ExtResource("5_3vl1d")]
+[node name="Leaf" parent="." unique_id=541012346 instance=ExtResource("7_f5lyi")]
 position = Vector2(141, -13)
 
-[node name="Leaf2" parent="." unique_id=92224992 instance=ExtResource("5_3vl1d")]
+[node name="Leaf2" parent="." unique_id=92224992 instance=ExtResource("7_f5lyi")]
 position = Vector2(141, 14)
 
-[node name="Leaf3" parent="." unique_id=1495786132 instance=ExtResource("5_3vl1d")]
+[node name="Leaf3" parent="." unique_id=1495786132 instance=ExtResource("7_f5lyi")]
 position = Vector2(170, 0)
 
-[node name="Leaf4" parent="." unique_id=456764693 instance=ExtResource("5_3vl1d")]
+[node name="Leaf4" parent="." unique_id=456764693 instance=ExtResource("7_f5lyi")]
 position = Vector2(174, -32)
 
-[node name="Leaf5" parent="." unique_id=909853310 instance=ExtResource("5_3vl1d")]
+[node name="Leaf5" parent="." unique_id=909853310 instance=ExtResource("7_f5lyi")]
 position = Vector2(211, -3)
 
-[node name="Leaf6" parent="." unique_id=904585510 instance=ExtResource("5_3vl1d")]
+[node name="Leaf6" parent="." unique_id=904585510 instance=ExtResource("7_f5lyi")]
 position = Vector2(208, -26)
 
-[node name="Leaf7" parent="." unique_id=1736828126 instance=ExtResource("5_3vl1d")]
+[node name="Leaf7" parent="." unique_id=1736828126 instance=ExtResource("7_f5lyi")]
 position = Vector2(352, -16)
 
-[node name="Leaf8" parent="." unique_id=1857584280 instance=ExtResource("5_3vl1d")]
+[node name="Leaf8" parent="." unique_id=1857584280 instance=ExtResource("7_f5lyi")]
 position = Vector2(352, 11)
 
-[node name="Leaf9" parent="." unique_id=507783284 instance=ExtResource("5_3vl1d")]
+[node name="Leaf9" parent="." unique_id=507783284 instance=ExtResource("7_f5lyi")]
 position = Vector2(381, -3)
 
-[node name="Leaf10" parent="." unique_id=361181774 instance=ExtResource("5_3vl1d")]
+[node name="Leaf10" parent="." unique_id=361181774 instance=ExtResource("7_f5lyi")]
 position = Vector2(385, -35)
 
-[node name="Leaf11" parent="." unique_id=181760322 instance=ExtResource("5_3vl1d")]
+[node name="Leaf11" parent="." unique_id=181760322 instance=ExtResource("7_f5lyi")]
 position = Vector2(422, -6)
 
-[node name="Leaf12" parent="." unique_id=1362359239 instance=ExtResource("5_3vl1d")]
+[node name="Leaf12" parent="." unique_id=1362359239 instance=ExtResource("7_f5lyi")]
 position = Vector2(493, -29)
 
-[node name="Leaf13" parent="." unique_id=207752452 instance=ExtResource("5_3vl1d")]
+[node name="Leaf13" parent="." unique_id=207752452 instance=ExtResource("7_f5lyi")]
 position = Vector2(208, -26)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1142151585]
-position = Vector2(-76.5, -293)
-shape = SubResource("RectangleShape2D_wfm3n")
